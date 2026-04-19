@@ -22,10 +22,13 @@
     <nav>
       <a href="#diensten">Diensten</a>
       <a href="#over">Over</a>
+      <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
     </nav>
     <a href="#contact" class="btn primary">Offerte</a>
   </header>
+
+  <main>
 
   <!-- HERO -->
   <section class="hero">
@@ -47,10 +50,9 @@
   </section>
 
   <!-- DIENSTEN -->
-  <section id="diensten" class="section diensten">
+  <section id="diensten" class="section dark-section">
     <h2>DIENSTEN</h2>
     <p class="section-desc">Van een enkele kamer tot complete gevels — alles met dezelfde aandacht voor detail.</p>
-    
     <div class="services-grid">
       <div class="service-card">
         <h3>Binnenwerk</h3>
@@ -74,7 +76,7 @@
         <p class="over-badge">OVER JONATHAN</p>
         <h2>EÉN SCHILDER.<br>EÉN VERANTWOORDELIJKE.</h2>
         <p class="desc">
-          Geen onderaannemers, geen verrassingen. Jonathan komt zelf langs voor de offerte, 
+          Geen onderaannemers, geen verrassingen. Jonathan komt zelf langs voor de offerte,
           voert het werk zelf uit en blijft het aanspreekpunt tot de laatste streek gezet is.
         </p>
         <ul class="features">
@@ -91,24 +93,49 @@
     </div>
   </section>
 
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section dark-section">
+    <h2>PORTFOLIO</h2>
+    <p class="section-desc">Een selectie uit mijn recente projecten. Kwaliteit die je ziet.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item" style="--i:0"><img src="assets/j1.jpeg" alt="Project 1" loading="lazy"></div>
+      <div class="gallery-item" style="--i:1"><img src="assets/j2.jpeg" alt="Project 2" loading="lazy"></div>
+      <div class="gallery-item" style="--i:2"><img src="assets/j3.jpeg" alt="Project 3" loading="lazy"></div>
+      <div class="gallery-item" style="--i:3"><img src="assets/j4.jpeg" alt="Project 4" loading="lazy"></div>
+      <div class="gallery-item" style="--i:4"><img src="assets/j5.jpeg" alt="Project 5" loading="lazy"></div>
+      <div class="gallery-item" style="--i:5"><img src="assets/j6.jpeg" alt="Project 6" loading="lazy"></div>
+      <div class="gallery-item" style="--i:6"><img src="assets/j7.jpeg" alt="Project 7" loading="lazy"></div>
+      <div class="gallery-item" style="--i:7"><img src="assets/j8.jpeg" alt="Project 8" loading="lazy"></div>
+      <div class="gallery-item" style="--i:8"><img src="assets/j9.jpeg" alt="Project 9" loading="lazy"></div>
+      <div class="gallery-item" style="--i:9"><img src="assets/j10.jpeg" alt="Project 10" loading="lazy"></div>
+      <div class="gallery-item" style="--i:10"><img src="assets/j11.jpeg" alt="Project 11" loading="lazy"></div>
+      <div class="gallery-item" style="--i:11"><img src="assets/j12.jpeg" alt="Project 12" loading="lazy"></div>
+      <div class="gallery-item" style="--i:12"><img src="assets/j13.jpeg" alt="Project 13" loading="lazy"></div>
+      <div class="gallery-item" style="--i:13"><img src="assets/j14.jpeg" alt="Project 14" loading="lazy"></div>
+      <div class="gallery-item" style="--i:14"><img src="assets/j15.jpeg" alt="Project 15" loading="lazy"></div>
+      <div class="gallery-item" style="--i:15"><img src="assets/j16.jpeg" alt="Project 16" loading="lazy"></div>
+      <div class="gallery-item" style="--i:16"><img src="assets/j17.jpeg" alt="Project 17" loading="lazy"></div>
+      <div class="gallery-item" style="--i:17"><img src="assets/j18.jpeg" alt="Project 18" loading="lazy"></div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
-  <section id="contact" class="section contact">
+  <section id="contact" class="section">
     <h2>CONTACT</h2>
     <p class="section-desc">Neem contact op voor een vrijblijvende offerte.</p>
-    
     <div class="contact-grid">
-      <a href="tel:0492886777" class="contact-card">
+      <div class="contact-card">
         <span class="icon">📞</span>
         <strong>TELEFOON</strong>
         <p>0492 88 67 77</p>
         <a href="tel:0492886777" class="small-btn">Bel nu</a>
-      </a>
-      <a href="mailto:jonathan.schilderwerken@gmail.com" class="contact-card">
+      </div>
+      <div class="contact-card">
         <span class="icon">✉️</span>
         <strong>E-MAIL</strong>
         <p>jonathan.schilderwerken@gmail.com</p>
         <a href="mailto:jonathan.schilderwerken@gmail.com" class="small-btn">Stuur e-mail</a>
-      </a>
+      </div>
       <div class="contact-card">
         <span class="icon">📋</span>
         <strong>BTW</strong>
@@ -117,11 +144,17 @@
     </div>
   </section>
 
+  </main>
+
   <footer>
-    © 2026 SJP Schilderwerken — Jonathan Prawinchaikul
+    <p>© 2026 SJP Schilderwerken — Jonathan Prawinchaikul</p>
   </footer>
 
-</main>
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <img src="" alt="Volledige weergave" id="lightbox-img">
+  </div>
 
 <script src="script.js"></script>
 </body>
