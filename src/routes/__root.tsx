@@ -43,6 +43,12 @@ export const Route = createRootRoute({
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "SJP Schilderwerken — Jonathan Prawinchaikul" },
+      { name: "description", content: "A painter's website showcasing artwork and services with a bold, artistic design." },
+      { property: "og:description", content: "A painter's website showcasing artwork and services with a bold, artistic design." },
+      { name: "twitter:description", content: "A painter's website showcasing artwork and services with a bold, artistic design." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/414cf3ac-b05a-4550-866a-a15c47d996af/id-preview-ceb71899--63856942-d711-4fe8-b35e-25b81545a562.lovable.app-1776626501738.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/414cf3ac-b05a-4550-866a-a15c47d996af/id-preview-ceb71899--63856942-d711-4fe8-b35e-25b81545a562.lovable.app-1776626501738.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
