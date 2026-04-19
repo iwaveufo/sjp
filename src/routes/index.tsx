@@ -80,14 +80,14 @@ function Index() {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center pt-12 md:pt-24">
             <div className="absolute inset-0 -z-10 bg-primary/20 blur-3xl" />
             <img
               src={logo}
               alt="SJP Schilderwerken logo — verfroller"
               width={520}
               height={520}
-              className="w-full max-w-[28rem] drop-shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
+              className="w-full max-w-[18rem] drop-shadow-[0_20px_60px_rgba(0,0,0,0.45)]"
             />
           </div>
         </div>
