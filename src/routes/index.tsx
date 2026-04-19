@@ -18,7 +18,7 @@ function Index() {
         aria-hidden="true"
         width={1024}
         height={1024}
-        className="pointer-events-none absolute -top-32 -right-32 w-[36rem] max-w-[60vw] opacity-95 animate-drip"
+        className="pointer-events-none absolute -top-16 -right-16 w-[18rem] max-w-[35vw] opacity-95 animate-drip"
       />
       <img
         src={splatter2}
@@ -27,7 +27,7 @@ function Index() {
         width={1024}
         height={1024}
         loading="lazy"
-        className="pointer-events-none absolute -bottom-40 -left-40 w-[40rem] max-w-[70vw] opacity-95"
+        className="pointer-events-none absolute -bottom-20 -left-20 w-[20rem] max-w-[40vw] opacity-95"
       />
 
       {/* Nav */}
